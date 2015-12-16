@@ -1,11 +1,9 @@
 {
   "name": "antonsmolin/google-ads-api-namespaced",
-  "description": "Google Ads APIs Client Library for PHP (AdWords) with namespaces",
+  "description": "Google Ads APIs Client Library for PHP (AdWords) with namespaces for symfony2",
   "require": {
-    "php": ">=5.3.0"
+    "symfony/symfony": ">=2.2"
   },
-  "type": "library",
-  "homepage": "https://github.com/antonsmolin/google-ads-api-namespaced",
   "license": "MIT",
   "authors": [
     {
@@ -13,10 +11,8 @@
       "role": "Developer"
     }
   ],
-  "minimum-stability": "dev",
+  "type": "symfony-bundle",
   "autoload": {
-    "psr-0": {
-      "Google\\Api\\Ads\\": "src/"
-    }
+    "psr-0": { "GoogleAdsApi": "" }
   }
 }
