@@ -14,5 +14,6 @@
   "type": "symfony-bundle",
   "autoload": {
     "psr-0": { "GoogleAdsApi": "" }
-  }
+  },
+  "target-dir": "GoogleAdsApi"
 }
