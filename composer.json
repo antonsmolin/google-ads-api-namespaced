@@ -9,13 +9,14 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Vincent Tsao",
-      "role": "Developer"
-    },
-    {
       "name": "Anton Smolin",
       "role": "Developer"
     }
   ],
-  "minimum-stability": "dev"
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-0": {
+      "Google\\Api\\Ads\\": "src/"
+    }
+  }
 }
