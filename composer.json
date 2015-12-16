@@ -16,5 +16,6 @@
       "name": "Anton Smolin",
       "role": "Developer"
     }
-  ]
+  ],
+  "minimum-stability": "dev"
 }
