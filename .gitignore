@@ -1,0 +1,4 @@
+.idea
+Google/Api/Ads/AdWords/Api/*
+
+!Google/Api/Ads/AdWords/Api/FeedService

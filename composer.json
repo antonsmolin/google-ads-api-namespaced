@@ -1,0 +1,20 @@
+{
+  "name": "antonsmolin/google-ads-api-namespaced",
+  "description": "Google Ads APIs Client Library for PHP (AdWords) with namespaces",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "type": "library",
+  "homepage": "https://github.com/antonsmolin/google-ads-api-namespaced",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Vincent Tsao",
+      "role": "Developer"
+    },
+    {
+      "name": "Anton Smolin",
+      "role": "Developer"
+    }
+  ]
+}
