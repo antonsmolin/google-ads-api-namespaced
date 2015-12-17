@@ -216,7 +216,7 @@ abstract class AdsSoapClient extends \SoapClient
                 // Override the existing HTTP headers each time since they may have
                 // changed.
                 $existingStreamContextOptions['http']['header'] = implode("\r\n",
-                    array_map('AdsSoapClient::implodeHttpHeaders',
+                    array_map('\GoogleAdsApi\Common\Lib\AdsSoapClient::implodeHttpHeaders',
                         array_keys($httpHeaders), $httpHeaders));
                 stream_context_set_option($existingStreamContext,
                     $existingStreamContextOptions);
@@ -560,8 +560,8 @@ abstract class AdsSoapClient extends \SoapClient
         $typemaps[] = array(
             'type_ns'   => 'http://www.w3.org/2001/XMLSchema',
             'type_name' => 'long',
-            'from_xml'  => 'AdsSoapClient::TypemapLongFromXml',
-            'to_xml'    => 'AdsSoapClient::TypemapLongToXml');
+            'from_xml'  => '\GoogleAdsApi\Common\Lib\AdsSoapClient::TypemapLongFromXml',
+            'to_xml'    => '\GoogleAdsApi\Common\Lib\AdsSoapClient::TypemapLongToXml');
 
         return $typemaps;
     }

@@ -46,7 +46,7 @@ class XmlUtils
      */
     public static function GetDomFromXml($xml)
     {
-        set_error_handler(array('XmlUtils', 'HandleXmlError'));
+        set_error_handler(array('GoogleAdsApi\Common\Util\XmlUtils', 'HandleXmlError'));
         $dom = new \DOMDocument();
         $dom->loadXML($xml,
             LIBXML_DTDLOAD | LIBXML_DTDATTR | LIBXML_NOENT | LIBXML_XINCLUDE);
