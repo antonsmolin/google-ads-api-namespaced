@@ -34,6 +34,7 @@ namespace GoogleAdsApi\AdWords\Api\FeedService;
  * @subpackage v201509
  */
 use GoogleAdsApi\AdWords\Lib\AdWordsSoapClient;
+use GoogleAdsApi\AdWords\Util\Query;
 
 
 /**

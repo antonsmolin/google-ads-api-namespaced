@@ -6,7 +6,7 @@
  * Time: 13:24
  */
 
-namespace GoogleAdsApi\AdWords\Util;
+namespace GoogleAdsApi\AdWords\Api\FeedItemService;
 
 /**
  * <span class="constraint ContentsNotNull">This field must not contain {@code null} elements.</span>
