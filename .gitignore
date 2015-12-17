@@ -3,3 +3,4 @@ AdWords/Api/*
 
 !AdWords/Api/FeedService
 !AdWords/Api/FeedItemService
+!AdWords/Api/BudgetService
