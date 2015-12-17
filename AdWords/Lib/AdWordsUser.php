@@ -48,7 +48,7 @@ class AdWordsUser extends AdsUser
 {
 
     const OAUTH2_SCOPE = 'https://www.googleapis.com/auth/adwords';
-    const OAUTH2_HANDLER_CLASS = 'SimpleOAuth2Handler';
+    const OAUTH2_HANDLER_CLASS = '\GoogleAdsApi\Common\Util\SimpleOAuth2Handler';
 
     /**
      * The name of the SOAP header that represents the user agent making API
@@ -256,7 +256,6 @@ class AdWordsUser extends AdsUser
         }
         $serviceFactory = new AdWordsSoapClientFactory($this, $version, null, null,
             null);
-        $serviceFactory->DoRequireOnce($serviceName);
     }
 
     /**

@@ -70,12 +70,6 @@ abstract class SoapClientFactory
         $this->headerOverrides = $headerOverrides;
     }
 
-    /**
-     * Initiates a require_once for the service.
-     *
-     * @param string $serviceName the service to instantiate
-     */
-    abstract public function DoRequireOnce($serviceName);
 
     /**
      * Generates a SOAP client for the given service name. Generates a user level
@@ -89,7 +83,6 @@ abstract class SoapClientFactory
     public function GenerateSoapClient($serviceName)
     {
         if (extension_loaded('soap')) {
-            $this->DoRequireOnce($serviceName);
             $soapClient = $this->GenerateServiceClient($serviceName);
 
             return $soapClient;
@@ -109,7 +102,9 @@ abstract class SoapClientFactory
      */
     protected function GenerateServiceClient($serviceName)
     {
+        $serviceName = '\GoogleAdsApi\AdWords\Api\\'.$serviceName.'\\'.$serviceName;
         $location = $this->GetServiceLocation($serviceName);
+
         $wsdl = $location . '?wsdl';
         $options = array(
             'trace'              => true,
