@@ -59,15 +59,15 @@ class FeedService extends AdWordsSoapClient
      * @var array
      */
     public static $classmap = array(
-        "AuthenticationError"             => "GoogleAdsApi\\AdWords\\Util\\AuthenticationError",
-        "AuthorizationError"              => "GoogleAdsApi\\AdWords\\Util\\AuthorizationError",
-        "ClientTermsError"                => "GoogleAdsApi\\AdWords\\Util\\ClientTermsError",
+        "AuthenticationError"             => "GoogleAdsApi\\AdWords\\Error\\AuthenticationError",
+        "AuthorizationError"              => "GoogleAdsApi\\AdWords\\Error\\AuthorizationError",
+        "ClientTermsError"                => "GoogleAdsApi\\AdWords\\Error\\ClientTermsError",
         "DateRange"                       => "GoogleAdsApi\\AdWords\\Util\\DateRange",
-        "DistinctError"                   => "GoogleAdsApi\\AdWords\\Util\\DistinctError",
+        "DistinctError"                   => "GoogleAdsApi\\AdWords\\Error\\DistinctError",
         "EntityCountLimitExceeded"        => "GoogleAdsApi\\AdWords\\Util\\EntityCountLimitExceeded",
         "EntityNotFound"                  => "GoogleAdsApi\\AdWords\\Util\\EntityNotFound",
         "FeedAttribute"                   => "GoogleAdsApi\\AdWords\\Api\\FeedService\\FeedAttribute",
-        "FeedError"                       => "GoogleAdsApi\\AdWords\\Util\\FeedError",
+        "FeedError"                       => "GoogleAdsApi\\AdWords\\Error\\FeedError",
         "IdError"                         => "GoogleAdsApi\\AdWords\\Util\\IdError",
         "InternalApiError"                => "GoogleAdsApi\\AdWords\\Util\\InternalApiError",
         "NewEntityCreationError"          => "GoogleAdsApi\\AdWords\\Util\\NewEntityCreationError",
