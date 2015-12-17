@@ -3,8 +3,8 @@
  * Created by PhpStorm.
  * User: asmolin
  * Date: 17.12.15
- * Time: 14:26
+ * Time: 17:46
  */
 
-namespace GoogleAdsApi\AdWords\Api\BudgetService;
+namespace GoogleAdsApi\AdWords\Error;
 
