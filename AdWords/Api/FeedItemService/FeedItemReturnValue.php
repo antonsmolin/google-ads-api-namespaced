@@ -7,6 +7,7 @@
  */
 
 namespace GoogleAdsApi\AdWords\Api\FeedItemService;
+use GoogleAdsApi\AdWords\Util\ListReturnValue;
 
 /**
  * A container for return values from FeedItemService.mutate().
