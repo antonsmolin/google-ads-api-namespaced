@@ -6,5 +6,6 @@ AdWords/Api/*
 !AdWords/Api/BudgetService
 !AdWords/Api/BiddingStrategyService
 !AdWords/Api/CampaignService
+!AdWords/Api/CampaignCriterionService
 !AdWords/Api/LocationCriterionService
 
