@@ -7,6 +7,7 @@
  */
 
 namespace GoogleAdsApi\AdWords\Api\CampaignService;
+use GoogleAdsApi\AdWords\Util\Operation;
 
 /**
  * An operation on an AdWords campaign.

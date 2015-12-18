@@ -87,7 +87,7 @@ class FeedItemService extends AdWordsSoapClient
         "FeedItemAttributeValue"             => "\\GoogleAdsApi\\AdWords\\Api\\FeedItemService\\FeedItemAttributeValue",
         "FeedItemCampaignTargeting"          => "\\GoogleAdsApi\\AdWords\\Api\\FeedItemService\\FeedItemCampaignTargeting",
         "FeedItemDevicePreference"           => "\\GoogleAdsApi\\AdWords\\Api\\FeedItemService\\FeedItemDevicePreference",
-        "FeedItemError"                      => "\\GoogleAdsApi\\AdWords\\Api\\FeedItemService\\FeedItemError",
+        "FeedItemError"                      => "\\GoogleAdsApi\\AdWords\\Error\\FeedItemError",
         "FeedItemOperation"                  => "\\GoogleAdsApi\\AdWords\\Api\\FeedItemService\\FeedItemOperation",
         "FeedItemPage"                       => "\\GoogleAdsApi\\AdWords\\Api\\FeedItemService\\FeedItemPage",
         "FeedItemPolicyData"                 => "\\GoogleAdsApi\\AdWords\\Api\\FeedItemService\\FeedItemPolicyData",

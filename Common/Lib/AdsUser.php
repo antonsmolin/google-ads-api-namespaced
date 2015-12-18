@@ -430,6 +430,12 @@ abstract class AdsUser
         return $this->forceAddXsiTypes;
     }
 
+    public function SetForceAddXsiTypes($v)
+    {
+        $this->forceAddXsiTypes = $v;
+        return $this;
+    }
+
     /**
      * Gets the server used for authentication.
      * @return string the server used for authentiation
